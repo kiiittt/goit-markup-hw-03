@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -18,25 +18,29 @@
   <body>
     <header class="header">
       <nav class="main-nav">
-      <a href=""
-        ><span class="web">WEB</span><span class="studio">STUDIO</span></a
-      >
-      
+        <a href=""
+          ><span class="web">WEB</span><span class="studio">STUDIO</span></a
+        >
+
         <ul class="header-nav">
           <li><a href="index.html" class="studio-link item">Studio</a></li>
-          <li><a href="portfolio.html" class="portfolio-link item">Portfolio</a></li>
+          <li>
+            <a href="portfolio.html" class="portfolio-link item">Portfolio</a>
+          </li>
           <li><a href="" class="contacts-link item">Contacts</a></li>
         </ul>
-      
-      <ul class="header-link">
-        <li>
-          <a href="mailto:info@devstudio.com" class="mail item"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li><a href="tel:+110001111111" class="tel item">+11 (000) 111-11-11</a></li>
-      </ul>
-    </nav>
+
+        <ul class="header-link">
+          <li>
+            <a href="mailto:info@devstudio.com" class="mail item"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+110001111111" class="tel item">+11 (000) 111-11-11</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
       <section class="hero">
@@ -80,7 +84,7 @@
       </section>
       <section>
         <h2 class="section-title">What Are We Doing</h2>
-        <ul>
+        <ul class="section-list">
           <li><img src="./images/img1.jpg" alt="Monitor" width="360" /></li>
           <li><img src="./images/img2.jpg" alt="Application" width="360" /></li>
           <li><img src="./images/img3.jpg" alt="Telephone" width="360" /></li>
@@ -88,35 +92,57 @@
       </section>
       <section>
         <h2 class="section-title">Our Team</h2>
-        <ul>
-          <li>
-            <img src="./images/team1.jpg" alt="Mark" width="264" />
-            <h3 class="header-list">Mark Guerrero</h3>
-            <p class="text-list">Product Designer</p>
+        <ul class="team-list">
+          <li class="section-team">
+            <img
+              src="./images/team1.jpg"
+              alt="Mark"
+              width="264"
+              class="image-team"
+            />
+            <h3 class="header-team">Mark Guerrero</h3>
+            <p class="text-team">Product Designer</p>
           </li>
-          <li>
-            <img src="./images/team2.jpg" alt="Tom" width="264" />
-            <h3 class="header-list">Tom Ford</h3>
-            <p class="text-list">Frontend Developer</p>
+          <li class="section-team">
+            <img
+              src="./images/team2.jpg"
+              alt="Tom"
+              width="264"
+              class="image-team"
+            />
+            <h3 class="header-team">Tom Ford</h3>
+            <p class="text-team">Frontend Developer</p>
           </li>
-          <li>
-            <img src="./images/team3.jpg" alt="Camila" width="264" />
-            <h3 class="header-list">Camila Garcia</h3>
-            <p class="text-list">Marketing</p>
+          <li class="section-team">
+            <img
+              src="./images/team3.jpg"
+              alt="Camila"
+              width="264"
+              class="image-team"
+            />
+            <h3 class="header-team">Camila Garcia</h3>
+            <p class="text-team">Marketing</p>
           </li>
-          <li>
-            <img src="./images/team4.jpg" alt="Daniel" width="264" />
-            <h3 class="header-list">Daniel Wilson</h3>
-            <p class="text-list">UI Designer</p>
+          <li class="section-team">
+            <img
+              src="./images/team4.jpg"
+              alt="Daniel"
+              width="264"
+              class="image-team"
+            />
+            <h3 class="header-team">Daniel Wilson</h3>
+            <p class="text-team">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer">
-      <a href=""
-        ><span class="web">WEB</span
-        ><span class="studio-footer">STUDIO</span></a
-      >
+      <div class="logo-footer">
+        <a href="" class="footer-link"
+          ><span class="web footer">WEB</span
+          ><span class="studio-footer">STUDIO</span></a
+        >
+      </div>
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
