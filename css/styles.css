@@ -43,11 +43,28 @@ font-size: 18px;
 line-height: 24px;
 }
 
+.main-nav{
+display: flex;
+align-items: center;
+justify-content: start;
+}
+
 .header-nav{
+display: flex;
+margin-left: 70px;
+padding-left: 0;
 color: var(--DarkColor);
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
+}
+
+.header-nav li{
+margin-right: 40px;
+}
+
+.header-nav :last-child{
+margin-right: 0px;
 }
 
 .studio-link:hover,
@@ -69,7 +86,18 @@ color: var(--TextColor);
 color: var(--PrimaryBrand);
 }
 
+.header-link{
+display: flex;
+padding-left: 0;
+margin-left: 330px;
+}
+
+.header-link:first-child{
+margin-right: 40px;
+}
+
 .mail, .tel{
+margin-right: 40px;
 color: var(--TextColor);
 font-weight: 400;
 font-size: 16px;
