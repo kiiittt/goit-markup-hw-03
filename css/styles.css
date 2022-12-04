@@ -143,14 +143,14 @@ margin: 0;
   display: inline-block;
   text-align: center;
   background-color: var(--DarkColor);
+  padding-top: 192px;
+  padding-bottom: 192px;
   width: 100%;
 }
 
 .hero-title {
-  margin: auto;
-  padding-top: 190px;
-  padding-bottom: 50px;
-  width: 492px;
+  margin-bottom: 50px;
+  margin-right: 0;
   color: #fff;
   font-weight: 500;
   font-size: 56px;
@@ -158,7 +158,6 @@ margin: 0;
 }
 
 .button {
-  margin-bottom: 190px;
   background-color: var(--PrimaryBrand);
   color: #f4f4fd;
   width: 170px;
@@ -173,11 +172,14 @@ margin: 0;
   line-height: 19px;
 }
 
+.advantages{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .advantages-list {
   display: flex;
   flex-direction: row;
-  padding-top: 120px;
-  padding-bottom: 120px;
   padding-left: 0px;
   margin: 0;
 }
@@ -214,6 +216,17 @@ img{
 display: block;
 }
 
+.section-doing{
+padding-bottom: 240px;
+}
+
+.our-team{
+color: var(--Light);
+margin-bottom: 120px;
+padding-left: 156px;
+padding-right: 156px;
+}
+
 .section-title {
   text-align: center;
   margin: auto;
@@ -228,7 +241,7 @@ display: block;
   display: flex;
   justify-content: center;
   margin: 0px;
-  padding-bottom: 240px;
+  
   padding-left: 0;
 }
 
@@ -262,18 +275,8 @@ padding-bottom: 32px;
 
 .section-team{
     margin-right: 24px;
-    margin-bottom: 120px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-}
-
-
-.section-team:first-child{
-margin-left: 156px;
-}
-
-.section-team:last-child{
-margin-right: 156px;
 }
 
 .header-list > .team {
@@ -304,11 +307,8 @@ margin-right: 156px;
 
 .footer {
   background-color: var(--DarkColor);
-}
-
-.logo-footer{
-padding-top: 100px;
-padding-bottom: 16px;
+  padding-top: 100px;
+padding-bottom: 100px;
 padding-left: 156px;
 }
 
@@ -321,13 +321,8 @@ padding-left: 156px;
 }
 
 
-.web .footer{
-margin: 0;
-}
-
-.container.footer{
-padding-top: 100px;
-padding-bottom: 100px;
+.web.footer{
+padding: 0;
 }
 
 .footer-text {
@@ -336,6 +331,11 @@ padding-bottom: 100px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+}
+
+.section-portfolio{
+padding-top: 96px;
+padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -356,10 +356,15 @@ display: none;
   color: var(--PrimaryBrand);
 }
 
+.portfolio-list :not(:last-child){
+margin-right: 24px; 
+}
+
+
 .portfolio-list{
 display: flex;
 justify-content: center;
-margin-top: 72px;
+margin-top: 0px;
 margin-bottom: 120px;
 padding: 0;
 }
