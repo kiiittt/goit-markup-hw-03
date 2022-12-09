@@ -230,8 +230,6 @@ img {
 
 .our-team {
   background-color: #f4f4fd;
-  padding-left: 156px;
-  padding-right: 156px;
   padding-bottom: 120px;
   padding-top: 120px;
 }
@@ -363,7 +361,7 @@ img {
   display: flex;
   justify-content: center;
   margin-top: 0px;
-  margin-bottom: 120px;
+  margin-bottom: 72px;
   padding: 0;
 }
 
